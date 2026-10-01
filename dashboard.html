@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="dashboard">
+
+        <h1>Student Portal</h1>
+
+        <p>Welcome to Student Dashboard</p>
+
+        <div class="student-info">
+
+            <h2>Student Details</h2>
+
+            <p><b>Name:</b> Yuvarani</p>
+
+            <p><b>Register Number:</b> 23ECE001</p>
+
+            <p><b>Department:</b> Electronics and Communication Engineering</p>
+
+            <p><b>Year:</b> III Year</p>
+
+        </div>
+
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Attendance</h3>
+                <p>85%</p>
+            </div>
+
+            <div class="card">
+                <h3>CGPA</h3>
+                <p>9.2</p>
+            </div>
+
+            <div class="card">
+                <h3>Courses</h3>
+                <p>6</p>
+            </div>
+
+        </div>
+
+
+        <div class="buttons">
+            <button onclick="window.location.href='profile.html'">
+                Profile
+            </button>
+            <button onclick="window.location.href='attendance.html'">
+                Attendance
+            </button>
+            <button onclick="window.location.href='marks.html'">
+                Marks
+            </button>
+
+            <button onclick="window.location.href='courses.html'">
+                Courses
+            </button>
+
+            <button onclick="logout()">
+                Logout
+            </button>
+
+        </div>
+
+        <p id="dashboardMessage"></p>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
