@@ -56,3 +56,4 @@ student-portal/
 ├── style.css           # Website Styling
 └── script.js           # JavaScript Functionality
 screenshot<img width="1920" height="1080" alt="Screenshot 2026-10-01 081539" src="https://github.com/user-attachments/assets/61a1ee7e-2346-4717-9159-cb36cd53a889" />
+link https://yuvaranivelu1610-design.github.io/student-portal/
